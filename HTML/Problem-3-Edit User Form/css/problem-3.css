@@ -1,0 +1,134 @@
+/*
+•	Font: 16px/20px "Roboto", Helvetica, sans-serif;
+•	https://fonts.googleapis.com/css?family=Roboto:400,500,700
+•	Default text: #1E1917;
+•	Title: 40px;
+•	Labels: 14px/500;
+•	Buttons font-size: 15px/700;
+•	Link: #136F63, 15px, no-hover effect
+•	Content max-width: 800px; Body centered, Top
+
+
+*/
+
+#wrapper{
+    max-width: 800px;
+    margin: 0 auto;
+    background-color:  rgb(238,238,238);
+    font-size:16px;
+    font-family: Roboto,Helvetica,sans-serif;
+    color: #1E1917;
+}
+@font-face{
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+header{
+    width: 700px;
+    height: 80px;
+    background-color: #fff;
+    color: rgb(50,78,91);
+    border:5px solid ;
+    border-top-color:rgb(50,78,91) ;
+    border-right-color:rgb(50,78,91) ;
+    border-bottom-color: #fff;
+    border-left-color: #fff;
+    margin:0 auto;
+
+
+ }
+header h1{
+    font-size: 40px;
+    line-height: 80px;
+    margin-left:20px;
+}
+.first-row{
+    width: 700px;
+    float: left;
+    display: inline;
+
+}
+.form-control{
+    width: 500px;
+    height: 20px;
+    border:2px solid ;
+    border-top-color:rgb(50,78,91) ;
+    border-left-color:rgb(50,78,91);
+    border-right-color:#fff;
+    border-bottom-color: #fff;
+
+
+}
+.checkbox{
+    float: right;
+    width: 150px;
+    display: inline;
+    position: absolute;
+    top:120px;
+    right:290px
+}
+main{
+    margin-right: 20px;
+}
+.margin{
+    padding-left: 70px;
+}
+.form-group{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.radiobuton{
+    position: absolute;
+    top:270px;
+    right:690px
+}
+.checkbox-block{
+
+    width: 500px;
+    height: 200px;
+    border:2px solid ;
+    border-top-color:rgb(50,78,91) ;
+    border-left-color:rgb(50,78,91);
+    border-right-color:#fff;
+    border-bottom-color: #fff;
+    background-color: #fff;
+
+}
+a{
+    color:#136F63;
+    font-size: 15px;
+}
+.btn{
+
+    width:700px;
+    border-top-color:rgb(238,238,238) ;
+    border-left-color:rgb(238,238,238);
+    border-right-color:red;
+    border-bottom-color: red;
+    background-color: rgb(238,238,238);
+    height: 30px;
+    color:red;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size:15px;
+
+}
+.btn2{
+
+    width:700px;
+    border-top-color:rgb(238,238,238); ;
+    border-left-color:rgb(238,238,238);
+    border-right-color:green;
+    border-bottom-color: green;
+    background-color: rgb(238,238,238);
+    height: 30px;
+    color:green;
+    text-align: center;
+    margin-right: 80px;
+    margin-top: 10px;
+    font-size:15px;
+}
+label{
+    font-size: 14px;
+}

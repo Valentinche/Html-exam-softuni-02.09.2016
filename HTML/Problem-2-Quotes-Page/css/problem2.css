@@ -1,0 +1,172 @@
+/*
+ and logo font: 'Iceland', cursive;
+o
+o
+o	Green titles: 30px;
+o
+•	Layout: fluid; Header is fixed; Header and
+ footer are 100%; Content has max-width 1260px.
+
+
+*/
+
+#wrapper{
+    width: 1260px;
+    /*height: 1000px;*/
+    margin: 0 auto;
+    background-color: rgb(245,245,245);
+    font-family: "Jockey One",sans-serif;
+    font-size:20px;
+
+}
+@font-face {
+    font-family:Jockey One ;
+    src: url("../fonts/JockeyOne-Regular.ttf");
+}
+@font-face {
+    font-family:Iceland ;
+    src: url("../fonts/Iceland-Regular.ttf");
+}
+
+
+header{
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    margin: 0 auto;
+    color: rgb(255,255,1);
+    position: fixed;
+
+
+}
+.big-image{
+    width: 1000px;
+    margin: 0 auto;
+/*padding-left:80px ;*/
+}
+nav ul li{
+    float: left;
+    display: inline-block;
+    font-size: 26px;
+}
+nav{
+    font-family: 'Iceland', cursive;
+    font-size: 26px;
+}
+div>img{
+    width: 252px;
+    float: left;
+    padding: 10px;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    margin: 0 auto;
+    color: rgb(255,255,1);
+
+}
+.copyright{
+    color: #fff;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.left-footer{
+    margin-right: 50px;
+}
+.first-col{
+    width: 510px;
+    /*padding-left:165px ;*/
+    height: 600px;
+    float: left;
+
+
+}
+h3{
+    color: rgb(47,114,0);
+    font-size: 30px;
+    padding: 10px;
+}
+.second-col{
+    width: 500px;
+    height: 350px;
+    float: left;
+
+}
+main{
+    width: 1000px;
+    background-color: red;
+
+}
+.inline{
+    display: inline;
+}
+footer{
+    margin-top: 100px;
+}
+.small-images {
+    width: 1200px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 20px;
+    padding-left: 150px;
+    height: 520px;
+}
+h3>p{
+    font-size: 20px;
+}
+.inline{
+    display: block;
+    width: 500px;
+}
+.quote1{
+    padding: 10px;
+}
+.quote3{
+    padding: 10px;
+}
+.quote3-1{
+padding-top: 170px;
+}
+.quote4-1{
+    padding-top: 200px;
+}
+.right-footer{
+    float: right;
+    margin-top: -86px;
+    padding-right: 150px;
+}
+.left footer {
+    padding-top:10px;
+    padding-left:150px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.total{
+    position: absolute;
+    left:170px;
+    bottom: 10px;
+}
+.Resourses{
+    position: absolute;
+    right: 350px;
+    bottom:5px;
+    font-family: "Iceland",sans-serif;
+    font-size:20px;
+    text-decoration: underline;
+}
+.Guidelines{
+    position: absolute;
+    right: 250px;
+    bottom:5px;
+    font-family: "Iceland",sans-serif;
+    font-size:20px;
+}
+footer ul li a{
+    color: rgb(220,205,67);
+}
+footer ul li a:hover{
+    color: rgb(240,250,1);
+}

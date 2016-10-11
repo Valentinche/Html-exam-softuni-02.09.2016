@@ -1,0 +1,98 @@
+#wrapper{
+    width: 1000px;
+    margin:0 auto;
+    background-color: rgb(202,202,201);
+    height: 600px;
+}
+a >img {
+    width: 220px;
+    height: 200px;
+    margin-bottom: -15px;
+}
+
+header{
+    width: 900px;
+    height: 100px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-top:50px solid;
+    border-color: rgb(202,202,201);
+
+}
+nav ul li{
+    display: inline;
+    color: rgb(202,202,201);
+    vertical-align: center;
+    margin-top: 50px;
+}
+li a{
+    text-decoration: none;
+    color: #000;
+    vertical-align: 100px;
+    word-spacing: 50px;
+}
+li{
+    text-align: center;
+    line-height: 1;
+
+    width:50px;
+}
+aside{
+    width: 220px;
+    height: 300px;
+    /*background-color: white;*/
+    float: left;
+    padding-right: 8px;
+
+
+}
+main{
+    width: 960px;
+    margin: 0 auto;
+}
+section{
+    margin-top:20px ;
+    margin-right: 5px;
+    padding-right: 15px;
+}
+nav{
+    margin-top:20px;
+}
+.first{
+    margin-left: 26px;
+}
+p{
+    font-size: 15px;
+    font-family: Tahoma, Arial, sans-serif;
+     color: #191923;
+    padding-right: 5px;
+    margin: 10px;
+}
+h3{
+    color: rgb(141,154,185);
+    padding-top: 20px;
+
+    margin: 10px;
+}
+.text{
+    background-color: white;
+    width: 220px;
+    height: 150px;
+    vertical-align: middle;
+}
+ul{
+    margin-top: 30px;
+    padding: 40px;
+}
+.red{
+    color:#BF1363;
+}
+ul a:hover{
+    cursor: pointer;
+
+    color:#BF1363;
+}
+ section:hover{
+    cursor: pointer;
+     opacity: 0.8;
+}
